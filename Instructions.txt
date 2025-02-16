@@ -1,0 +1,56 @@
+# Screenshot Tool Instructions
+
+## How to Use:
+
+1. **Install Dependencies**  
+   - Ensure you have Python installed.  
+   - Install the required library using:  
+     ```
+     pip install pyautogui
+     ```
+
+2. **Save the Script**  
+   - Name it `screenshot_tool.py` and store it in a convenient location.
+
+3. **Open a Terminal or Command Prompt**  
+   - **Windows:** Press `Win + R`, type `cmd`, and press Enter.  
+   - **Mac/Linux:** Open the Terminal.
+
+4. **Navigate to the Script’s Directory**  
+   - Use `cd` to go to the folder where `screenshot_tool.py` is located.  
+     ```
+     cd C:\path\to\your\script   # Windows  
+     cd /path/to/your/script     # Mac/Linux
+     ```
+
+5. **Run the Script**  
+   - Type the following command and press Enter:  
+     ```
+     python screenshot_tool.py
+     ```
+   - If Python 3 is required, use:  
+     ```
+     python3 screenshot_tool.py
+     ```
+
+6. **Enter the Save Location**  
+   - When prompted, enter the directory where screenshots should be saved. Example:  
+     ```
+     Enter the directory to save screenshots: C:\Users\YourName\Pictures
+     ```
+     or  
+     ```
+     Enter the directory to save screenshots: /home/yourname/Pictures
+     ```
+
+7. **Screenshot is Saved**  
+   - The script will take a screenshot and save it with a timestamped filename.  
+   - Example output:  
+     ```
+     Screenshot saved: C:\Users\YourName\Pictures\screenshot_2025-02-15_12-30-00.png
+     ```
+
+## Notes:
+- Make sure the directory you specify exists or will be created by the script.
+- Run the script whenever you want to take a quick screenshot.
+- Modify the script to set a default save location if needed.
