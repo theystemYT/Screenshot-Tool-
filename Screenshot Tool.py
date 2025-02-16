@@ -1,3 +1,4 @@
+DO NOT STEAL THIS CODE UNLESS GIVEN PERMISSION BY THE CREATOR TO DO SO.
 import pyautogui
 import os
 import datetime
